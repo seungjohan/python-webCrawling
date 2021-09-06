@@ -8,7 +8,7 @@ filename = "Ranking of best selling bitcoin.csv"
 f = open(filename, "w", encoding="utf-8-sig", newline="")
 writer = csv.writer(f)
 
-title = "이름   거래 점수   거래량 (24시간) 평균 유동성 주별 방문   마켓  코인  지원 화폐   거래량 그래프 (7일)".split("\t")
+title = "순위,이름,거래 점수,거래량(24시간),평균 유동성,주별 방문,#마켓,#코인,지원 화폐,거래량 그래프(7일)".split(",")
 writer.writerow(title)
 
 res = requests.get(url)
