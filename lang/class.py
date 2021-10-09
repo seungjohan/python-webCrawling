@@ -20,7 +20,7 @@ class A:
 
 object= A(1,2,3)
 
-num = object.a
+num = object.a + object.b + object.c
 print("%s" %num)
 
 
