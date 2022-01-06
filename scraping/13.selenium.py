@@ -4,3 +4,4 @@ from selenium import webdriver
 broswer = webdriver.Chrome("./chromedriver.exe") # 
     # () 안에 chromedriver의 경로를 써주면 된다.
 broswer.get("http://www.google.com/")
+
